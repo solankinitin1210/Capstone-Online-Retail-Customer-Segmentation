@@ -11,3 +11,7 @@ Attribute Information:
 - UnitPrice: Unit price. Numeric, Product price per unit in sterling.
 - CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 - Country: Country name. Nominal, the name of the country where each customer resides
+## Conclusion
+- Built a clustering model using K-means and hierarchical clustering to identify major customer segments on transaction data to optimize the impact of marketing
+- Engineered features to obtain new features such as RFM, and RFM-Score for getting more details about the customers' purchasing behavior.
+- Evaluated the optimal clusters using the silhouette score , elbow method and dendrograms Method also plotted the scatter plot for visualization of clusters.
